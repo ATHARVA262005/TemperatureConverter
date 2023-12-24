@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6F61C0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #A084E8;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px #8BE8E5;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 48px;
+    color: #8BE8E5;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 0;
+    color: #D5FFE4;
+    font-size: 24px;
+}
+
+.converter {
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    background-color: #D5FFE4;
+    padding: 8px;
+    width: 80%;
+    border: 4px solid #8BE8E5;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+}
+
+button {
+    margin: 20px;
+    padding: 8px 16px;
+    background-color: #6F61C0;
+    border: none;
+    color: #D5FFE4;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #D5FFE4;
+    color: #6F61C0;
+}
+
+#result {
+    color: #071952;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.attribution {
+    background-color: #6F61C0;
+    color: #D5FFE4;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 0 0 8px 8px;
+    width: 100%; /* Add this line to make it full width */
+}
+
